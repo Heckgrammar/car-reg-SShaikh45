@@ -9,7 +9,7 @@
             string carReg = Console.ReadLine();
             while (carReg.Length > 8)
             {
-                string displayMessge = " is not valid";
+                string displayMessge = carReg + " is not valid";
                 Console.Write(displayMessge);
                 carReg = Console.ReadLine();
             }
@@ -17,7 +17,7 @@
             int hours = Convert.ToInt32(Console.ReadLine());
             if (hours < 2)
             {
-                charge = 0;
+                charge = 2 + (hours * 2);
             }
             else
             {
