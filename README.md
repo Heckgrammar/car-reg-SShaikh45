@@ -7,3 +7,5 @@
 ![image](https://github.com/user-attachments/assets/9df96d60-e3f4-4a85-841d-18faf4ebc6ef)
 
 note to self - need to change the writelines and switch therm apround. ALso you do not really need the brackets as its bodmas.
+
+extension - to make sure that the car reg cannot be put i thta isnt valid. You must put the <=, as a not equals to != sign.
